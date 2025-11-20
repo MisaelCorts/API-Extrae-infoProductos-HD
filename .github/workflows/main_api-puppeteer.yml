@@ -52,4 +52,4 @@ jobs:
           app-name: 'API-puppeteer'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E46199D44A144FDAABA48773D92DD42A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6127CD97D1FD414B9AE0539904D2AF08 }}
