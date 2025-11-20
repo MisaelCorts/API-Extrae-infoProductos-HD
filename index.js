@@ -10,6 +10,7 @@ const queue = new PQueue({ concurrency: 3 });
 let browser;
 (async () => {
   browser = await puppeteer.launch({
+     executablePath: '/usr/bin/chromium-browser',
     headless: true,
     args: ['--no-sandbox', '--disable-setuid-sandbox']
   });
