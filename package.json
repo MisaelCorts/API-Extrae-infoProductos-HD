@@ -1,27 +1,20 @@
 {
   "name": "api-extrae-infoproductos-hd",
   "version": "1.0.0",
-  "description": "API para extraer información de productos usando Puppeteer y Express",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "postinstall": "npx puppeteer browsers install chrome",
     "test": "echo \"No tests yet\""
   },
-  "keywords": [
-    "node",
-    "express",
-    "puppeteer",
-    "api"
-  ],
-  "author": "Misael Cortés",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
     "express": "^5.1.0",
     "p-queue": "^9.0.1",
     "puppeteer": "^24.31.0"
-  },
-  "engines": {
-    "node": ">=18.x"
   }
 }

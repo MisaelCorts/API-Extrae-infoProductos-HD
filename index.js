@@ -10,9 +10,9 @@ const queue = new PQueue({ concurrency: 3 });
 let browser;
 (async () => {
   browser = await puppeteer.launch({
-    //headless: true,
+    headless: true,
     // executablePath: '/usr/bin/chromium',
-    executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium',
+    //executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium',
     args: ['--no-sandbox', '--disable-setuid-sandbox']
   });
 })();
