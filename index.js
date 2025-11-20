@@ -12,7 +12,7 @@ let browser;
   browser = await puppeteer.launch({
     headless: true,
     // executablePath: '/usr/bin/chromium',
-   executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
+   //executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
     args: ['--no-sandbox', '--disable-setuid-sandbox']
   });
 })();
