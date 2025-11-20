@@ -5,10 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-   
     "test": "echo \"No tests yet\""
   },
-  "keywords": ["node", "express", "puppeteer", "api"],
+  "keywords": [
+    "node",
+    "express",
+    "puppeteer",
+    "api"
+  ],
   "author": "Misael Cortés",
   "license": "ISC",
   "type": "commonjs",
